@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>domain_model</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="model/*.fs" />
+    <Compile Include="common/*.fs" />
+    <Compile Include="repo/*.fs" />
+    <Compile Include="service/Fetcher.fs" />
+    <Compile Include="service/Stock.fs" />
+    <Compile Include="service/MA.fs" />
+  </ItemGroup>
+
+</Project>

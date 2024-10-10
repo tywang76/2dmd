@@ -1,0 +1,6 @@
+.config
+bin/
+obj/
+.DS_Store
+.env
+.fake
